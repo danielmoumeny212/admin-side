@@ -4,8 +4,8 @@ interface Props {
   children: ReactNode;
 }
 
-const setupLayout = ({ children }: Props) => {
+const SetupLayout = ({ children }: Props) => {
   return <div>{children}</div>;
 };
 
-export default setupLayout;
+export default SetupLayout;
