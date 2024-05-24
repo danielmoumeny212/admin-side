@@ -3,7 +3,6 @@
 import Modal from "@/components/modal";
 import { useEffect } from 'react';
 import useStoreModal from "@/hooks/useStoreModal";
-import { SignedIn, UserButton } from "@clerk/nextjs";
 
 const setupPage = () => {
   const onOpen = useStoreModal((state) => state.onOpen);
